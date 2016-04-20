@@ -1,0 +1,17 @@
+/*
+ * Site : http:www.smarttutorials.net
+ * Author :muni
+ * 
+ */html, body {height: 100%;width: 100%;}
+#wrap{min-height: 600px;height: auto !important;}
+input{text-align:left;}
+input:focus{border:1px solid yellow;} 
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../image/loader.gif) 50% 50% no-repeat rgb(249,249,249);
+}

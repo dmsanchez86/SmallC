@@ -1,0 +1,40 @@
+#frmLogin
+{
+	position: absolute;
+	top:10px;
+	left:500px;
+	width: 250px;
+	height: 200px;
+	padding-left:40px;
+	padding-top:30px;
+}
+
+#tbLogin,td
+{
+	padding-top: 2px;
+}
+
+label
+{
+	color:#AFAFAF ;
+}
+
+
+
+#dvLogo
+{
+	position: absolute; 
+	background-position: left;
+}
+
+#lbSoporte{
+	position: relative;;
+	top:10px;
+	left: 130px;
+}
+
+
+#lnkSoporte
+{
+	text-decoration:none; 
+}

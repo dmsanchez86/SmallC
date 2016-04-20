@@ -1,0 +1,62 @@
+input[type=text], textarea, input[type=password]
+{
+	border: 2px solid #e4e4e4;
+	padding: 3px;
+	outline: 0px;
+}
+
+.button {
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	padding:6px 24px;
+	text-decoration:none;
+	margin: 5px;
+}.button:active {
+	position:relative;
+	top:1px;
+}
+
+.div-back
+{
+	position: absolute;
+	background-color: #f1f1f1;
+	padding-right:25px;
+	padding-left:20px;
+	padding-top:20px;
+	border: 1px solid #e5e5e5;
+}
+
+label{
+
+	color:#777777;
+	font-size: 13px;
+}
+
+a
+{
+	color:#777777;
+}
+
+
+
+.centrar
+{
+	position: absolute;
+	/*nos posicionamos en el centro del navegador*/
+	top:50%;
+	left:50%;
+	/*determinamos una anchura*/
+	width:400px;
+	/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+	margin-left:-200px;
+	/*determinamos una altura*/
+	height:300px;
+	/*indicamos que el margen superior, es la mitad de la altura*/
+	margin-top:-150px;
+	border:1px solid #808080;
+	padding:5px;
+	background-color: white;
+}
+
